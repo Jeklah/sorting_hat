@@ -43,3 +43,15 @@ elif answer == 4:
     gryffindor += 4
 else:
     print('Wrong input')
+
+most_points = max(gryffindor, ravenclaw, hufflepuff, slytherin)
+
+print('You belong to: ')
+if gryffindor == most_points:
+    print('Gryffindor')
+elif ravenclaw == most_points:
+    print('Ravenclaw')
+elif hufflepuff == most_points:
+    print('Hufflepuff')
+elif slytherin == most_points:
+    print('Slytherin')
