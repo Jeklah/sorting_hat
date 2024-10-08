@@ -4,7 +4,7 @@ hufflepuff = 0
 slytherin = 0
 
 print('Do you like Dawn or Dusk, 1 for dawn, 2 for dusk')
-answer = int(input('Enter a number 1-4: '))
+answer = int(input('Enter a number 1-2: '))
 
 if answer == 1:
     gryffindor += 1
